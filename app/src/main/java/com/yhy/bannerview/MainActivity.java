@@ -6,8 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity
-        extends AppCompatActivity
+public class MainActivity extends AppCompatActivity
 {
 
     private BannerView       mBannerView;
@@ -22,7 +21,9 @@ public class MainActivity
     }
 
     private void initView() {
+
         mBannerView = findViewById(R.id.banner_view);
+
     }
 
     private void initData() {
